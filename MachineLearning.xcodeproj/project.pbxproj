@@ -10,6 +10,8 @@
 		F890F3E7204D96C800032A0D /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F890F3E6204D96C800032A0D /* test.cpp */; };
 		F8C3C1B12050420700FB0128 /* regression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8C3C1B02050420700FB0128 /* regression.cpp */; };
 		F8C3C1B52051329800FB0128 /* Eigen in Sources */ = {isa = PBXBuildFile; fileRef = F8C3C1B22050477200FB0128 /* Eigen */; };
+		F8C3C1B7205158A500FB0128 /* multicouche.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8C3C1B6205158A500FB0128 /* multicouche.cpp */; };
+		F8C3C1B920518D5700FB0128 /* rbf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8C3C1B820518D5700FB0128 /* rbf.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		F890F3E6204D96C800032A0D /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		F8C3C1B02050420700FB0128 /* regression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = regression.cpp; sourceTree = "<group>"; };
 		F8C3C1B22050477200FB0128 /* Eigen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Eigen; sourceTree = "<group>"; };
+		F8C3C1B6205158A500FB0128 /* multicouche.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multicouche.cpp; sourceTree = "<group>"; };
+		F8C3C1B820518D5700FB0128 /* rbf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rbf.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				F890F3E0204D96AC00032A0D /* Info.plist */,
 				F890F3E6204D96C800032A0D /* test.cpp */,
 				F8C3C1B02050420700FB0128 /* regression.cpp */,
+				F8C3C1B6205158A500FB0128 /* multicouche.cpp */,
+				F8C3C1B820518D5700FB0128 /* rbf.cpp */,
 			);
 			path = MachineLearning;
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C3C1B52051329800FB0128 /* Eigen in Sources */,
+				F8C3C1B920518D5700FB0128 /* rbf.cpp in Sources */,
 				F8C3C1B12050420700FB0128 /* regression.cpp in Sources */,
+				F8C3C1B7205158A500FB0128 /* multicouche.cpp in Sources */,
 				F890F3E7204D96C800032A0D /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
